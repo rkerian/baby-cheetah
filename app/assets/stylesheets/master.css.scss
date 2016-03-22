@@ -22,6 +22,10 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .slogan {
   /* Verdana-based sans serif stack */
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
