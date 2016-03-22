@@ -63,6 +63,11 @@ h2 {
   font-family: 'source_sans_proregular', sans-serif;
 }
 
+h2 span {
+  color: #dddddd;
+  font-family: 'source_sans_proregular', sans-serif;
+}
+
 .next-quote {
   color: #F84342;
   font-family: 'source_sans_proregular', sans-serif;
@@ -80,4 +85,19 @@ h2 {
 .about {
   /* Verdana-based sans serif stack */
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
+}
+
+.modal {
+  /* Verdana-based sans serif stack */
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+::selection {
+  background-color: #F84342;
 }
