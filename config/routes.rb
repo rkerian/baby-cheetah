@@ -56,7 +56,7 @@ Splurty::Application.routes.draw do
 
   # edited per lesson 4 16-03-21
   root 'quotes#index'
-
   resources :quotes
+  get 'about', to: 'quotes#about'
 
 end
